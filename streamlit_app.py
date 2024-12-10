@@ -4,7 +4,7 @@ import requests
 import streamlit as st
 
 # Initialize variables
-ip = '13.49.23.55'
+ip = '16.171.231.85'
 url = 'http://' + ip + '/api/t5_small/v1/predict'
 headers = {
     'Content-Type': 'application/json'
